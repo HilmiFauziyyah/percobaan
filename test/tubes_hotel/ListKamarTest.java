@@ -57,7 +57,7 @@ public class ListKamarTest {
     public void testGetBornDate() {
         System.out.println("getBornDate");
         ListKamar instance = new ListKamar();
-        LocalDate expResult = null;
+        LocalDate expResult = 1;
         LocalDate result = instance.getBornDate();
               // TODO review the generated test code and remove the default call to fail.
        
