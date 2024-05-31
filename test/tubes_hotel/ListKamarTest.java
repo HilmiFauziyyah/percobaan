@@ -83,7 +83,7 @@ public class ListKamarTest {
     @Test
     public void testTampilText() {
         System.out.println("TampilText");
-        ListKamar instance = new ListKamar();
+        ListKamar instance;
         instance.TampilText();
         // TODO review the generated test code and remove the default call to fail.
  
