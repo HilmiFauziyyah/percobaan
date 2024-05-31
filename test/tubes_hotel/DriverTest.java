@@ -58,7 +58,7 @@ public class DriverTest {
         System.out.println("getTxtName");
         Driver instance = new Driver();
         String expResult = "";
-        String result = instance.getTxtName();
+        String result = instance.TampilText();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
   
