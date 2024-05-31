@@ -43,7 +43,7 @@ public class AdminPanelTest {
     @Test
     public void testMain() {
         System.out.println("main");
-        String[] args = null;
+        String args = null;
         AdminPanel.main(args);
         // TODO review the generated test code and remove the default call to fail.
       
