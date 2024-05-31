@@ -56,7 +56,7 @@ public class TamuTest {
     public void testSetNama_tamu() {
         System.out.println("setNama_tamu");
         String nama_tamu = "";
-        Tamu instance = null;
+        Tamu instance = "";
         // TODO review the generated test code and remove the default call to fail.
         
     }
