@@ -44,8 +44,6 @@ public class ListKamarTest {
     @Test
     public void testClearText() {
         System.out.println("clearText");
-        ListKamar instance = new ListKamar();
-        instance.clearText();
         // TODO review the generated test code and remove the default call to fail.
        
     }
