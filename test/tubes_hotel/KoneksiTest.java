@@ -43,6 +43,17 @@ public class KoneksiTest {
      */
     @Test
     public void testGetData() {
+        System.out.println("getData
+        String SQLString = "";
+        Koneksi instance = new Koneksi();
+        ResultSet expResult = null;
+        ResultSet result = instance.getData(SQLString);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+       
+    }
+@Test
+    public void testGetData() {
         System.out.println("getData");
         String SQLString = "";
         Koneksi instance = new Koneksi();
@@ -52,7 +63,6 @@ public class KoneksiTest {
         // TODO review the generated test code and remove the default call to fail.
        
     }
-
     /**
      * Test of query method, of class Koneksi.
      */
